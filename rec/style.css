@@ -1,0 +1,94 @@
+html, body, .container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.youtube {
+    width: 50%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header h2 {
+    margin: 0;
+    color: black;
+    font-family: cursive;
+    font-style: italic;
+}
+
+.video {
+    background-color: black;
+    width: 600px;
+    height: 200px;
+    border-bottom: 2px solid red;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video:hover .acoes {
+    display: block;
+}
+
+.acoes {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.acoes button {
+    background-color: transparent;
+    border: none;
+}
+
+.top {
+    position: absolute;
+    right: 4px;
+    top: 2px;
+}
+
+.bottom {
+    position: absolute;
+    right: 4px;
+    bottom: 2px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    width: 590px;
+    padding: 10px;
+}
+
+.rodape h3 {
+    margin: 0;
+    font-family: cursive;
+    font-style: italic;
+    word-spacing: 2px;
+    font-size: 25px;
+}
+
+p {
+    color: white;
+    font-family: cursive;
+    font-style: italic;
+
+}
+
+.rodape button {
+    right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 95px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+}
